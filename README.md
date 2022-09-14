@@ -106,3 +106,6 @@ git push -u origin main
 main 브랜치에서 origin 원격에다가 푸쉬하겠다.
 
 git clone 주소 => .git 정보도 가져올 수 있음
+
+git pull
+=> 내 동료가 한 코드를 내 로컬 컴퓨터로 가져오는 것!
