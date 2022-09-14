@@ -109,3 +109,22 @@ git clone 주소 => .git 정보도 가져올 수 있음
 
 git pull
 => 내 동료가 한 코드를 내 로컬 컴퓨터로 가져오는 것!
+
+git pull --no-rebase
+
+git pull --rebase
+
+강제 푸쉬
+팀원 간의 합의 후 실행
+git push --force
+
+git push --set-upstream origin local
+origin이란 곳에 local이란 브랜치가 저장될 곳을 만들고 local이란 브랜치에서 푸쉬하면 저기로 넣어달란말.
+
+git branch --all하면 origin까지 포함된 branch 확인 가능!
+
+git fetch를 통해 원격에서 생성된 브랜치를 확인가능
+
+git switch -t origin/origin-branch을 통해
+git push origin --delete origin-branch
+원격의 브랜치를 삭제하는 방법.
